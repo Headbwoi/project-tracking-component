@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="stylesheet" href="./public/output.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="">
+      <section
+        class="relative after:bg-lightGrayishBlue after:h-[425px] after:w-1/2 after:absolute after:top-0 after:right-0 lg:after:h-[400px] after:-z-10 after:rounded-bl-[5rem] overflow-x-hidden"
+      >
+        <div class="container py-10">
+          <!-- navigation -->
+          <nav
+            class="flex items-center justify-between px-8 md:px-12 lg:px-0 mb-[3.75rem] lg:mb-[7.875rem] relative"
+          >
+            <!-- logo -->
+            <img src="images/logo.svg" alt="logo" />
+
+            <!-- desktop menu -->
+            <div
+              class="hidden lg:flex lg:items-center lg:justify-between space-x-10 font-barlowCondensed"
+            >
+              <a href="#" class="font-bold text-veryDarkBlue uppercase"
+                >Product</a
+              >
+              <a href="#" class="font-bold text-veryDarkBlue uppercase"
+                >Features</a
+              >
+              <a href="#" class="font-bold text-veryDarkBlue uppercase"
+                >Pricing</a
+              >
+              <span class="w-1.5 h-1.5 bg-grayishBlue rounded-full"></span>
+              <a href="#" class="font-bold text-grayishBlue uppercase">Login</a>
+            </div>
+            <!-- hamburger -->
+            <img
+              src="images/icon-hamburger.svg"
+              alt="icon-hamburger"
+              class="lg:hidden cursor-pointer duration-300"
+              id="openMenu"
+            />
+            <!-- mobile menu -->
+
+            <div
+              class="mobile-menu h-[14.6875rem] absolute top-[4.375rem] left-1/2 -translate-x-1/2 bg-[white] hidden justify-center flex-col space-y-5 p-7 rounded shadow-xl shadow-grayishBlue text-center z-20 lg:hidden opacity-0"
+              id="mobileMenu"
+            >
+              <a href="#" class="font-bold text-veryDarkBlue uppercase"
+                >Product</a
+              >
+              <a href="#" class="font-bold text-veryDarkBlue uppercase"
+                >Features</a
+              >
+              <a href="#" class="font-bold text-veryDarkBlue uppercase"
+                >Pricing</a
+              >
+              <span class="w-full h-0.5 bg-lightGrayishBlue"></span>
+              <a href="#" class="font-bold text-grayishBlue uppercase">Login</a>
+            </div>
+          </nav>
+
+          <!-- hero contents -->
+
+          <div class="w-full lg:flex lg:justify-between lg:items-center lg:flex-row-reverse">
+            <!-- image -->
+            <div
+              class="image relative h-[15.1875rem] lg:w-[40.1875rem] lg:h-[28.3125rem]  after:absolute after:inset-0 after:w-full after:h-full after:bg-[url(../images/illustration-devices.svg)] after:bg-no-repeat after:bg-cover lg:after:bg-contain  after:translate-x-3 lg:after:lg:w-[51.1875rem] lg:after:-translate-x-12 mb-8"
+            ></div>
+
+            <!-- text -->
+
+            <div class="mt-20 lg:mt-0 px-8 md:px-12 lg:px-0">
+              <h1
+                class="font-normal font-barlow text-grayishBlue uppercase mb-8 text-center lg:text-left"
+              >
+                <span
+                  class="font-bold font-barlowCondensed text-lightGrayishBlue bg-veryDarkBlue rounded-full p-2.5 mr-5"
+                  >New</span
+                >
+                Monograph Dashboard
+              </h1>
+
+              <h2
+                class="uppercase text-veryDarkBlue font-bold font-barlowCondensed text-2xl lg:text-5xl mb-8 lg:min-w-[29.5rem]"
+              >
+                Powerful insights into your team
+              </h2>
+
+              <p class="font-barlow font-normal text-lg text-darkGrayishBlue mb-8">Project planning and time tracking for agile teams</p>
+
+              <!-- button -->
+              <div class="flex items-center justify-between lg:justify-start space-x-5">
+                <button class="bg-Red uppercase text-lightGrayishBlue font-barlowCondensed font-bold text-xs lg:text-[1rem] p-3 rounded-md">Schedule a demo</button>
+                <p class="uppercase font-barlow font-normal text-grayishBlue text-xs lg:text-[1rem]">to see a live preview</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+ 
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Headbwoi</a>.
+      </p>
+    </footer>
+  </body>
+</html>

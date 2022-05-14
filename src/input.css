@@ -1,0 +1,41 @@
+/* ### Body Copy
+
+- Font size: 18px
+
+### Headings, Call-to-actions, Navigation
+
+- Family: [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
+- Weights: 400
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mobile-menu{
+    width: calc(100% - 4rem);
+    animation: fadeIn 300ms ease-in-out;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.show{
+    opacity: 1;
+    display: flex;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
