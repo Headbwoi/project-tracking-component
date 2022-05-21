@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://headbwoi.github.io/project-tracking-component/)
 
 ## My process
 
@@ -37,4 +37,4 @@ Users should be able to:
 
 ## Author
 
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@headbwoi_1](https://www.twitter.com/headbwoi_1)
